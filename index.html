@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image and Video Changer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+body {
+  background-image: url('https://e0.pxfuel.com/wallpapers/230/630/desktop-wallpaper-anime-aesthetic-pc-anime-aesthetic-pc-background-on-bat-retro-anime-aesthetic.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+<body>
+    <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a>Games</a></li>
+        <li><a>About</a></li>
+        <li style="float:right"><a>Exit</a></li>
+    </ul>
+<body>
+    <div class="container">
+        <div class="media-container">
+            <img class="media" src="img1.jpg" alt="Image 1">
+            <button class="change-media" data-type="image">Change Image</button>
+        </div>
+        <div class="media-container">
+            <img class="media" src="img2.jpg" alt="Image 2">
+            <button class="change-media" data-type="image">Change Image</button>
+        </div>
+        <div class="media-container">
+            <img class="media" src="img3.jpg" alt="Image 3">
+            <button class="change-media" data-type="image">Change Image</button>
+        </div>
+    </div>
+    <div class="container">
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/wuWgMS0EMwY?si=h9DHcN_fpHjwpOyW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="media-container">
+            <video class="media" src="video2.mp4" controls></video>
+            <button class="change-media" data-type="video">Change Video</button>
+        </div>
+        <div class="media-container">
+            <video class="media" src="video3.mp4" controls></video>
+            <button class="change-media" data-type="video">Change Video</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
